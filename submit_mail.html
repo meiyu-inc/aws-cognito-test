@@ -35,23 +35,22 @@
 
 <body>
 
-  <div id="signup">
-    <h1>Sign Up</h1>
-    <form name='form-signup'>
+  <div class="container">
+    <form name="form-signup">
+      <h1>サインアップ</h1>
+      <div id="message" class="alert" style="display:none;"></div>
       <span style="display: inline-block; width: 150px;">User ID(Email)</span>
-      <input type="text" id="email" placeholder="Email Address">
-      <br />
+      <input type="text" id="email" class="form-control" placeholder="Email Address">
       <span style="display: inline-block; width: 150px;">Last Name</span>
-      <input type="text" id="lastName" placeholder="Last Name">
-      <br />
+      <input type="text" id="lastName" class="form-control" placeholder="Last Name">
       <span style="display: inline-block; width: 150px;">First Name</span>
-      <input type="text" id="firstName" placeholder="First Name">
-      <br />
+      <input type="text" id="firstName" class="form-control" placeholder="First Name">
       <span style="display: inline-block; width: 150px;">Password</span>
-      <input type="password" id="password" placeholder="Password">
-      <br /><br />
-      <input type="button" id="createAccount" value="Create Account">
+      <input type="password" id="password" class="form-control" placeholder="Password">
+      <br>
+      <input type="button" class="btn btn-lg btn-primary btn-bloc" id="createAccount" value="Create Account">
     </form>
+
   </div>
 
   <script>
