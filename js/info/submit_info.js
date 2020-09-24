@@ -7,8 +7,8 @@ AWS.config.credentials = new AWS.CognitoIdentityCredentials({
 
 // 2Amazon Cognito Userpoolの指定＋クライアントアプリの指定
 let poolData = {
-  UserPoolId: 'ap-northeast-1XXXXXXXXXXXXX', //ユーザープールのID
-  ClientId: 'XXXXXXXXXXXXXXXXXXXXXX' //クライアントアプリの設定上のID
+  UserPoolId: 'ap-northeast-1_hqIuSoIWq',
+  ClientId: 'airj2ifei2m06m9lc8dbvg0uq'
 
 };
 //ユーザープール＋クライアントアプリの情報を格納
